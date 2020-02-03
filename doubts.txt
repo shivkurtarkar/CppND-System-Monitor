@@ -1,0 +1,29 @@
+//TODO:
+if else in while
+read whole file?
+
+return value 
+isnt it better to ne value 
+
+vector<string> LinuxParser::CpuUtilization() { 
+    single and multi
+
+best way to pass multiple values from function
+
+
+
+Hey I have few quetions
+In linux_parser file there is a function
+vector<string> LinuxParser::CpuUtilization() 
+which i suppose is to parse /proc/stat
+and use in float Processor::Utilization() 
+to compute aggregate cpu Utilization.
+is this arrangement for if i want to pass multiple cpu info?
+or is it like i am supposed to pass 10 values of aggreatate cpu stat?
+cpu  49733 101 12294 1270995 35109 1472 1846 0 0 0
+if so isnt it a bad idea to pass values as vector which is dynamic
+and values are known to be 10 shouldnt it be array?
+what are the best ways of passing multiple values in c++?
+is map of key value a overkill for the work since it does sorting and stuff?
+
+
